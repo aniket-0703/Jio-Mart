@@ -1,0 +1,35 @@
+.btnStyle{
+    background: #089cdb;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 13px;
+    cursor: pointer;
+    font-family: jioBold;
+}
+.plusMinusBtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.order-nums{
+    height: 100%;
+    font-family: jioBold;
+    width: 2rem;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+.btnText{
+    width: 31.4px;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.btnStyle{
+    justify-content: flex-end;
+    
+
+}
+}

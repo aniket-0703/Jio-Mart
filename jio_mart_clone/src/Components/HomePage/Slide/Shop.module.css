@@ -1,0 +1,23 @@
+
+.items {
+  height: 14rem;
+  /* width: 11rem; */
+  width: 100%;
+}
+.items:hover {
+  overflow: hidden;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+.alovera {
+  width: 38.5rem;
+  margin: auto;
+  animation-duration: 3s;
+  animation: example 20s linear infinite;
+
+
+}
+
+

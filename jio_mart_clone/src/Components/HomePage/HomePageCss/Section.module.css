@@ -1,0 +1,215 @@
+.belowSlider {
+  width: 84.2rem;
+  height: 40rem;
+}
+.imgie {
+  width: 84.5rem;
+}
+
+.vicks {
+  /* border: 1px solid red; */
+  height: 10rem;
+  width: 84.2rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.imgvick {
+  width: 84.5rem;
+  height: 10rem;
+}
+
+.groceries {
+  /* margin-bottom: 3rem; */
+  /* height: 35rem; */
+  width: 100%;
+  /* border:1px solid rgb(58, 63, 58); */
+  margin: auto;
+}
+.groceriesD {
+  margin: auto;
+  /* border: 1px solid brown; */
+  /* width: 98%; */
+  gap: 2rem;
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(auto, 18rem));
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.Choco {
+  /* border:1px solid red; */
+  background-color: #efd6da;
+  height: 15rem;
+  border-radius: 0.8rem;
+}
+.Creamy {
+  background-color: #c5f8c0;
+  height: 15rem;
+  border-radius: 0.8rem;
+}
+
+.groom {
+  margin: auto;
+  /* border:1px solid red; */
+}
+.groom:hover {
+  overflow: hidden;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+.hotest {
+  /* height: 40rem; */
+  width: 100%;
+  /* border: 1px solid salmon; */
+
+}
+.hotestD {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 16rem);
+  justify-content: center;
+  margin-left: 0.3rem;
+  margin: 10px;
+  /* padding-left: rem; */
+}
+.zoom:hover {
+  overflow: hidden;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+.kidssmall {
+  /* height: 20rem; */
+  width: 100%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.kidsfashion {
+  display: flex;
+  margin: auto;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+}
+.kids {
+  width: 30rem;
+}
+.boom:hover {
+  overflow: hidden;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+.menimg {
+  /* height: 30rem; */
+  width: 100%;
+  margin: auto;
+  /* margin-bottom: 2rem; */
+}
+.menf {
+  display: grid;
+  /* width: 90%; */
+  gap: 1rem;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(auto, 36rem));
+  justify-content: center;
+  /* grid-gap: 2rem; */
+  margin: auto;
+}
+
+.text {
+  color: black;
+  margin-top: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-left: 5%;
+  margin-bottom: 1rem;
+}
+
+.menssmall {
+  /* height: 10rem; */
+  width: 100%;
+  margin: auto;
+  /* border:  1px solid blue; */
+}
+
+.mensfashion {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 14rem);
+  justify-content: center;
+  /* margin: auto; */
+
+  border-radius: 0.5rem;
+  /* margin: 5px; */
+  /* border: 2px solid red ; */
+}
+.fashion {
+  width: 100%;
+  margin: auto; 
+}
+.dhoom:hover {
+  overflow: hidden;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+.mmm {
+  width: 95%;
+  display: block;
+}
+
+.posterimg {
+  /* height: 76rem; */
+  width: 100%;
+  margin: auto;
+  margin-top: 1.5rem;
+  /* border:1px solid red; */
+}
+
+.downPicImg {
+  /* height: 50rem; */
+  /* width: 100%; */
+  /* margin-bottom: 3rem; */
+  /* border:1px solid red; */
+}
+.downimg {
+  /* height: 190rem; */
+  width: 100%;
+  /* margin-top: -8rem; */
+}
+
+.abovefooter {
+  /* border: 1px solid green; */
+  
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(auto, 38rem )); */
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  /* margin-left: 1rem; */
+ 
+}
+.poster {
+  margin: 1rem;
+  /* background-color: teal; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.items {
+  border-radius: none;
+}
+.items:hover {
+  overflow: hidden;
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}

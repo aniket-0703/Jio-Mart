@@ -1,0 +1,198 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #008ecc;
+    font-size: 15px;
+}
+
+.image{
+    padding-top: 5px;
+    width: 100px;
+}
+.navlist{
+    width: 100%;
+    text-align: left;
+    position:fixed;
+    top: 62px;
+    z-index: 9;
+    padding-top: 8px;
+    padding-left: 150px;
+    background-color: #ececed;
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+.navlist ul{
+    list-style: none;
+    
+    
+}
+
+.navlist>ul{
+    padding-left: 10px;
+    
+    margin: 0;
+
+    display: inline-block;
+    
+    color: #000;
+}
+.navlist>ul>li{
+    position: relative;
+    cursor: pointer;
+    float: left;
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    
+    
+}
+.navlist>ul>li:nth-child(4){
+    padding-left: 10px;
+}
+
+
+.dropdown li{
+    text-align: left;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ececed;
+    display: none; 
+
+}
+.navlist>ul>li:last-child>ul>li{
+    width:200px;
+}
+.navlist li:hover .dropdown li {
+     display: block;
+     
+}
+
+.dropdown li:hover{
+    background-color: #fff;
+    color: #007bff;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+   
+    width: 100%;
+    padding-top: 60px;
+    font-weight: lighter;
+    list-style: none;
+    background-color: rgba(21,27,57,.08);
+}
+.footer>div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.footer>div:last-child{
+    border-top: 1px solid rgba(195,195,195,.5);
+}
+.footer>div:first-child>div:last-child{
+    border-left: 1px solid rgba(195,195,195,.5);
+}
+.footer p{
+    margin-bottom: 10px;
+}
+.footer span{
+    color: #008ecc;
+    cursor: pointer;
+}
+.footer>div:first-child>div{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.footer h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.footer li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.footer img {
+    cursor: pointer;
+}
+.DrawerHeader{
+    background-color: #008ecc;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.DrawerHeader>div>div{
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+}
+.DrawerHeader button{
+    margin-top: 15px;
+    border: 1px solid white;
+    text-align: center;
+    width: 180px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.DrawerHeader>div>div:first-child>img{
+ margin-right: 15px;
+ border: 2px solid white;
+ border-radius: 25px;
+}
+.Drawerlist{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    border-bottom: 5px solid #d5dbdb;
+}
+.Drawerlist li{
+    color: #000;
+    margin-bottom: 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.Drawerlist h3{
+    font-weight: bold;
+}
+.Drawerlist span{
+    text-decoration: underline;
+    color: #008ecc;
+    cursor: pointer;
+}
+.Drawerlist p {
+    font-weight: 300;
+    line-height: normal;
+}
+.DrawerFooter{
+    height: 50px;
+    background-color: #d5dbdb;
+}
+
+
+@media (max-width: 1300px) {
+    .navlist {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+

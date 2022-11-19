@@ -1,0 +1,35 @@
+.cart-item-section{
+    background: white;
+    padding: 2%;
+}
+.cart-cards{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    border-bottom: 0.5px solid #c4c4c7;
+    padding: 2%;
+
+
+
+}
+.cart-cards:nth-last-of-type(1){
+    border-bottom:0px solid #c4c4c7;
+
+}
+.basket-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+    font-family: jioBold;
+
+
+}
+.cart-cards img{
+    width: 100px;
+    height: auto;
+    padding:10px
+}
+.cart-cards > div:nth-of-type(2){
+    margin-left: 4%;
+}
